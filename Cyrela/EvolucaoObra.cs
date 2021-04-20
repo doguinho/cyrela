@@ -4,6 +4,8 @@ namespace Cyrela
 {
     public class EvolucaoObra
     {
+        public int id{ get; set; }
+
         public DateTime Date { get; set; }
 
         public String Foto { get; set; }
